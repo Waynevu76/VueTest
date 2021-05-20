@@ -8,7 +8,8 @@ To avoid losing time, you will use a simple vue cli bootstrap.
 # SETUP API
 cd vue-test
 npm install
-node_modules/http-server/bin/http-server ./
+node index.js
+# node_modules/http-server/bin/http-server ./ (CORS)
 # API is now available on http://localhost:8080/api/XXXX.json
 
 # SETUP VUE
